@@ -4,7 +4,6 @@ class GamescoresController < ApplicationController
   # GET /gamescores
   def index
     @gamescores = Gamescore.all
-
     render json: @gamescores
   end
 
