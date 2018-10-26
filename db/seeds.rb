@@ -2,7 +2,7 @@ Gamescore.destroy_all
 User.destroy_all
 Prompt.destroy_all
 
-
+seededgs = Gamescore.create("user_id": 0, "score": 0)
 jackie = User.create(username: 'jkhaha')
 mckenzie = User.create(username: 'fiegelikesiege')
 
