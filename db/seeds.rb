@@ -1,5 +1,7 @@
+Gamescore.destroy_all
 User.destroy_all
 Prompt.destroy_all
+
 
 jackie = User.create(username: 'jkhaha')
 mckenzie = User.create(username: 'fiegelikesiege')
@@ -54,3 +56,9 @@ It is also a coming together, much the way women come together every day in ever
 By gathering in Beijing, we are focusing world attention on issues that matter most in our lives -- the lives of women and their families: access to education, health care, jobs and credit, the chance to enjoy basic legal and human rights and to participate fully in the political life of our countries.
 
 There are some who question the reason for this conference. Let them listen to the voices of women in their homes, neighborhoods, and workplaces. There are some who wonder whether the lives of women and girls matter to economic and political progress around the globe. Let them look at the women gathered here and at Huairou -- the homemakers and nurses, the teachers and lawyers, the policymakers and women who run their own businesses. It is conferences like this that compel governments and peoples everywhere to listen, look, and face the world’s most pressing problems.", difficulty: "difficult")
+
+prompt7 = Prompt.create(content: "And the fleet of little boats moved off all at once, gliding across the lake, which was as smooth as glass. Everyone was silent, staring up at the great castle overhead. It towered over them as they sailed nearer and nearer to the cliff on which it stood.
+
+“Heads down!” yelled Hagrid as the first boat reached the cliff; they all bent their heads and the little boats carried them through a curtain of ivy which hid a wide opening in the cliff face. They were carried along a dark tunnel, which seemed to be taking them right underneath the castle, until they reached a kind of underground harbour, where they clambered out on to the rocks and pebbles.", difficulty: "easy")
+
+prompt8 = Prompt.create(content:"I believe that in the history of the world, there has not been a more genuinely democratic struggle for freedom than ours. I read Carlyle’s French Resolution while I was in prison, and Pandit Jawaharlal has told me something about the Russian revolution. But it is my conviction that inasmuch as these struggles were fought with the weapon of violence they failed to realize the democratic ideal. In the democracy which I have envisaged, a democracy established by non-violence, there will be equal freedom for all. Everybody will be his own master. It is to join a struggle for such democracy that I invite you today. Once you realize this you will forget the differences between the Hindus and Muslims, and think of yourselves as Indians only, engaged in the common struggle for independence.", difficulty:"medium")
