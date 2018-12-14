@@ -1,6 +1,6 @@
 # Turbo Typing Backend
 
-Turbo typing is a speed typing test that counts how many words a user can typing correctly in a minute.
+Turbo typing is a speed typing test that measures speed and accuracy with three different levels of prompt difficulty.
 
 ## Features
 
